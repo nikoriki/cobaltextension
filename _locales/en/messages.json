@@ -1,0 +1,280 @@
+{
+  "extensionName": {
+    "message": "Cobalt Media Downloader",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Download media from any website via cobalt.tools. Choose to download audio, video, or both.",
+    "description": "Description of the extension"
+  },
+  "popupTitle": {
+    "message": "Cobalt Media Downloader",
+    "description": "Title displayed in the popup"
+  },
+  "placeholderUrl": {
+    "message": "Paste link or use current page",
+    "description": "Placeholder text for URL input"
+  },
+  "btnAuto": {
+    "message": "Auto",
+    "description": "Auto download button"
+  },
+  "btnAudio": {
+    "message": "Audio",
+    "description": "Audio download button"
+  },
+  "btnVideo": {
+    "message": "Video",
+    "description": "Video download button"
+  },
+  "btnPaste": {
+    "message": "Paste & Download",
+    "description": "Paste and download button"
+  },
+  "btnCurrent": {
+    "message": "Use Current Page",
+    "description": "Use current page button"
+  },
+  "viewHistory": {
+    "message": "View Download History",
+    "description": "View download history link"
+  },
+  "options": {
+    "message": "Options",
+    "description": "Options link"
+  },
+  "invalidUrl": {
+    "message": "Invalid URL. Please paste a valid link.",
+    "description": "Invalid URL error message"
+  },
+  "clipboardError": {
+    "message": "Failed to read clipboard: $ERROR$",
+    "description": "Clipboard error message",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Permission denied"
+      }
+    }
+  },
+  "currentPageError": {
+    "message": "Could not get current page URL.",
+    "description": "Current page error message"
+  },
+  "processing": {
+    "message": "Processing...",
+    "description": "Processing message"
+  },
+  "downloadStarted": {
+    "message": "Download started",
+    "description": "Download started notification"
+  },
+  "downloadComplete": {
+    "message": "Download complete",
+    "description": "Download complete notification"
+  },
+  "downloadFailed": {
+    "message": "Download failed",
+    "description": "Download failed notification"
+  },
+  "contextMenuDownloadLink": {
+    "message": "Download with Cobalt",
+    "description": "Context menu item for links"
+  },
+  "contextMenuDownloadPage": {
+    "message": "Download this page with Cobalt",
+    "description": "Context menu item for pages"
+  },
+  "contextMenuViewHistory": {
+    "message": "View Download History",
+    "description": "Context menu item to view history"
+  },
+  "contextMenuOptions": {
+    "message": "Options",
+    "description": "Context menu item for options"
+  },
+  "optionsGeneral": {
+    "message": "General",
+    "description": "General options tab"
+  },
+  "optionsAppearance": {
+    "message": "Appearance",
+    "description": "Appearance options tab"
+  },
+  "optionsDownloads": {
+    "message": "Downloads",
+    "description": "Downloads options tab"
+  },
+  "optionsShortcuts": {
+    "message": "Shortcuts",
+    "description": "Shortcuts options tab"
+  },
+  "optionsHistory": {
+    "message": "History",
+    "description": "History options tab"
+  },
+  "optionsAbout": {
+    "message": "About",
+    "description": "About options tab"
+  },
+  "optionsInstance": {
+    "message": "Cobalt Instance URL:",
+    "description": "Cobalt instance URL option"
+  },
+  "optionsDefaultMode": {
+    "message": "Default Download Mode:",
+    "description": "Default download mode option"
+  },
+  "optionsTheme": {
+    "message": "Theme:",
+    "description": "Theme option"
+  },
+  "optionsThemeLight": {
+    "message": "Light",
+    "description": "Light theme option"
+  },
+  "optionsThemeDark": {
+    "message": "Dark",
+    "description": "Dark theme option"
+  },
+  "optionsThemeSystem": {
+    "message": "Match System",
+    "description": "System theme option"
+  },
+  "optionsLanguage": {
+    "message": "Language:",
+    "description": "Language option"
+  },
+  "optionsSave": {
+    "message": "Save Options",
+    "description": "Save options button"
+  },
+  "optionsReset": {
+    "message": "Reset to Defaults",
+    "description": "Reset options button"
+  },
+  "optionsSaved": {
+    "message": "Options saved successfully!",
+    "description": "Options saved message"
+  },
+  "optionsReset": {
+    "message": "Options have been reset to defaults. Click Save to apply changes.",
+    "description": "Options reset message"
+  },
+  "notificationsEnabled": {
+    "message": "Show browser notifications",
+    "description": "Notifications enabled option"
+  },
+  "aboutTitle": {
+    "message": "About Cobalt Media Downloader",
+    "description": "About page title"
+  },
+  "aboutDescription": {
+    "message": "This extension was created to make downloading media easier using cobalt.tools.",
+    "description": "About page description"
+  },
+  "aboutAuthor": {
+    "message": "Created by:",
+    "description": "Author label"
+  },
+  "aboutVersion": {
+    "message": "Version:",
+    "description": "Version label"
+  },
+  "aboutRepository": {
+    "message": "GitHub Repository:",
+    "description": "Repository label"
+  },
+  "aboutThanks": {
+    "message": "Special thanks to cobalt.tools for providing an amazing service that makes media downloading simple and accessible.",
+    "description": "Thanks message for cobalt.tools"
+  },
+  "aboutDisclaimer": {
+    "message": "This extension is not affiliated with or endorsed by the cobalt.tools developers.",
+    "description": "Disclaimer about affiliation"
+  },
+  "historyTitle": {
+    "message": "Download History",
+    "description": "History page title"
+  },
+  "historySearch": {
+    "message": "Search downloads...",
+    "description": "History search placeholder"
+  },
+  "historyFilterType": {
+    "message": "All Types",
+    "description": "History filter by type"
+  },
+  "historyFilterStatus": {
+    "message": "All Status",
+    "description": "History filter by status"
+  },
+  "historySort": {
+    "message": "Sort by:",
+    "description": "History sort"
+  },
+  "historySortDateNewest": {
+    "message": "Date (Newest)",
+    "description": "Sort by newest date"
+  },
+  "historySortDateOldest": {
+    "message": "Date (Oldest)",
+    "description": "Sort by oldest date"
+  },
+  "historySortTitleAZ": {
+    "message": "Title (A-Z)",
+    "description": "Sort by title A-Z"
+  },
+  "historySortTitleZA": {
+    "message": "Title (Z-A)",
+    "description": "Sort by title Z-A"
+  },
+  "historyEmpty": {
+    "message": "No download history found.",
+    "description": "Empty history message"
+  },
+  "historyAdjustFilters": {
+    "message": "Try adjusting your filters.",
+    "description": "Adjust filters message"
+  },
+  "historyStatusSuccess": {
+    "message": "Success",
+    "description": "Success status"
+  },
+  "historyStatusFailed": {
+    "message": "Failed",
+    "description": "Failed status"
+  },
+  "historyDownloadAgain": {
+    "message": "Download Again",
+    "description": "Download again button"
+  },
+  "historyRemove": {
+    "message": "Remove",
+    "description": "Remove button"
+  },
+  "historyClearAll": {
+    "message": "Clear All History",
+    "description": "Clear all history button"
+  },
+  "historyConfirmRemove": {
+    "message": "Are you sure you want to remove this item from your history?",
+    "description": "Confirm remove message"
+  },
+  "historyConfirmClear": {
+    "message": "Are you sure you want to clear your entire download history?",
+    "description": "Confirm clear message"
+  },
+  "historyConfirm": {
+    "message": "Confirm",
+    "description": "Confirm button"
+  },
+  "historyCancel": {
+    "message": "Cancel",
+    "description": "Cancel button"
+  },
+  "historyCleared": {
+    "message": "Download history has been cleared.",
+    "description": "History cleared message"
+  }
+}

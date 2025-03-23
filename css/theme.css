@@ -1,0 +1,195 @@
+
+:root[data-theme="light"] {
+  --background-color: #f8f9fa;
+  --secondary-background: #ffffff;
+  --text-color: #333333;
+  --secondary-text-color: #666666;
+  --primary-color: #4c84ff;
+  --primary-color-transparent: rgba(76, 132, 255, 0.1);
+  --secondary-color: #4caf50;
+  --border-color: #dddddd;
+  --link-color: #4c84ff;
+  --button-text-color: #ffffff;
+  --button-hover-color: #3a70e0;
+  --button-active-color: #3a70e0;
+  --input-background: #ffffff;
+  --input-border-color: #dddddd;
+  --input-text-color: #333333;
+  --success-color: #28a745;
+  --error-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+:root[data-theme="dark"] {
+  --background-color: #121212;
+  --secondary-background: #1e1e1e;
+  --text-color: #f0f0f0;
+  --secondary-text-color: #a0a0a0;
+  --primary-color: #4c84ff;
+  --primary-color-transparent: rgba(76, 132, 255, 0.2);
+  --secondary-color: #4caf50;
+  --border-color: #333333;
+  --link-color: #5c94ff;
+  --button-text-color: #ffffff;
+  --button-hover-color: #3a70e0;
+  --button-active-color: #2a60d0;
+  --input-background: #2a2a2a;
+  --input-border-color: #444444;
+  --input-text-color: #f0f0f0;
+  --success-color: #28a745;
+  --error-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+:root:not([data-theme]) {
+  --background-color: #f8f9fa;
+  --secondary-background: #ffffff;
+  --text-color: #333333;
+  --secondary-text-color: #666666;
+  --primary-color: #4c84ff;
+  --primary-color-transparent: rgba(76, 132, 255, 0.1);
+  --secondary-color: #4caf50;
+  --border-color: #dddddd;
+  --link-color: #4c84ff;
+  --button-text-color: #ffffff;
+  --button-hover-color: #3a70e0;
+  --button-active-color: #3a70e0;
+  --input-background: #ffffff;
+  --input-border-color: #dddddd;
+  --input-text-color: #333333;
+  --success-color: #28a745;
+  --error-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --background-color: #121212;
+    --secondary-background: #1e1e1e;
+    --text-color: #f0f0f0;
+    --secondary-text-color: #a0a0a0;
+    --primary-color: #4c84ff;
+    --primary-color-transparent: rgba(76, 132, 255, 0.2);
+    --secondary-color: #4caf50;
+    --border-color: #333333;
+    --link-color: #5c94ff;
+    --button-text-color: #ffffff;
+    --button-hover-color: #3a70e0;
+    --button-active-color: #2a60d0;
+    --input-background: #2a2a2a;
+    --input-border-color: #444444;
+    --input-text-color: #f0f0f0;
+    --success-color: #28a745;
+    --error-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.theme-light {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.theme-dark {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: var(--button-hover-color);
+}
+
+.btn:active {
+  background-color: var(--button-active-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-color);
+  filter: brightness(90%);
+}
+
+.card {
+  background-color: var(--secondary-background);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px var(--shadow-color);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+input, select, textarea {
+  background-color: var(--input-background);
+  border: 1px solid var(--input-border-color);
+  color: var(--input-text-color);
+  padding: 8px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.success {
+  color: var(--success-color);
+}
+
+.error {
+  color: var(--error-color);
+}
+
+.warning {
+  color: var(--warning-color);
+}
+
+.info {
+  color: var(--info-color);
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://cobalt.tools/_app/immutable/assets/ibm-plex-mono-latin-400-normal.Dm_PoFIZ.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://cobalt.tools/_app/immutable/assets/ibm-plex-mono-latin-500-normal.C_OblDzq.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://cobalt.tools/_app/immutable/assets/noto-sans-mono-greek-wght-normal.SlIpuzKF.woff2') format('woff2');
+}

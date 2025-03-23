@@ -1,0 +1,65 @@
+{
+  "name":"Cobalt Media Downloader",
+  "description": "Download your media with cobalt.tools, and with this extension immediately!",
+  "version": "2.3.0",
+  "manifest_version": 3,
+  "default_locale": "en",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage",
+    "clipboardRead"
+  ],
+  "host_permissions": [
+    "*://*.cobalt.tools/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.cobalt.tools/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_title": "Cobalt Media Downloader",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "download-current-page-auto": {
+      "suggested_key": {
+        "default": "Alt+D"
+      },
+      "description": "Download current page (Auto)"
+    },
+    "download-current-page-audio": {
+      "suggested_key": {
+        "default": "Alt+A"
+      },
+      "description": "Download current page (Audio Only)"
+    },
+    "download-current-page-video": {
+      "suggested_key": {
+        "default": "Alt+V"
+      },
+      "description": "Download current page (Video Only)"
+    },
+    "open-popup": {
+      "suggested_key": {
+        "default": "Alt+C"
+      },
+      "description": "Open extension popup"
+    }
+  }
+}

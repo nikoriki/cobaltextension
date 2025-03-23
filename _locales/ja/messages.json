@@ -1,0 +1,296 @@
+{
+  "extensionName": {
+    "message": "Cobalt メディアダウンローダー",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "cobalt.toolsを介して任意のウェブサイトからメディアをダウンロードします。音声、動画、または両方をダウンロードするか選択できます。",
+    "description": "Description of the extension"
+  },
+  "popupTitle": {
+    "message": "Cobalt メディアダウンローダー",
+    "description": "Title displayed in the popup"
+  },
+  "placeholderUrl": {
+    "message": "リンクを貼り付けるか現在のページを使用",
+    "description": "Placeholder text for URL input"
+  },
+  "btnAuto": {
+    "message": "自動",
+    "description": "Auto download button"
+  },
+  "btnAudio": {
+    "message": "音声",
+    "description": "Audio download button"
+  },
+  "btnVideo": {
+    "message": "動画",
+    "description": "Video download button"
+  },
+  "btnPaste": {
+    "message": "貼り付け＆ダウンロード",
+    "description": "Paste and download button"
+  },
+  "btnCurrent": {
+    "message": "現在のページを使用",
+    "description": "Use current page button"
+  },
+  "viewHistory": {
+    "message": "ダウンロード履歴を表示",
+    "description": "View download history link"
+  },
+  "options": {
+    "message": "オプション",
+    "description": "Options link"
+  },
+  "invalidUrl": {
+    "message": "無効なURLです。有効なリンクを貼り付けてください。",
+    "description": "Invalid URL error message"
+  },
+  "clipboardError": {
+    "message": "クリップボードの読み取りに失敗しました: $ERROR$",
+    "description": "Clipboard error message",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Permission denied"
+      }
+    }
+  },
+  "currentPageError": {
+    "message": "現在のページのURLを取得できませんでした。",
+    "description": "Current page error message"
+  },
+  "processing": {
+    "message": "処理中...",
+    "description": "Processing message"
+  },
+  "contextMenuDownloadLink": {
+    "message": "Cobaltでダウンロード",
+    "description": "Context menu item for links"
+  },
+  "contextMenuDownloadPage": {
+    "message": "このページをCobaltでダウンロード",
+    "description": "Context menu item for pages"
+  },
+  "contextMenuViewHistory": {
+    "message": "ダウンロード履歴を表示",
+    "description": "Context menu item to view history"
+  },
+  "contextMenuOptions": {
+    "message": "オプション",
+    "description": "Context menu item for options"
+  },
+  "optionsGeneral": {
+    "message": "一般",
+    "description": "General options tab"
+  },
+  "optionsAppearance": {
+    "message": "外観",
+    "description": "Appearance options tab"
+  },
+  "optionsDownloads": {
+    "message": "ダウンロード",
+    "description": "Downloads options tab"
+  },
+  "optionsShortcuts": {
+    "message": "ショートカット",
+    "description": "Shortcuts options tab"
+  },
+  "optionsHistory": {
+    "message": "履歴",
+    "description": "History options tab"
+  },
+  "optionsAbout": {
+    "message": "情報",
+    "description": "About options tab"
+  },
+  "optionsInstance": {
+    "message": "CobaltインスタンスURL:",
+    "description": "Cobalt instance URL option"
+  },
+  "optionsDefaultMode": {
+    "message": "デフォルトのダウンロードモード:",
+    "description": "Default download mode option"
+  },
+  "optionsTheme": {
+    "message": "テーマ:",
+    "description": "Theme option"
+  },
+  "optionsThemeLight": {
+    "message": "ライト",
+    "description": "Light theme option"
+  },
+  "optionsThemeDark": {
+    "message": "ダーク",
+    "description": "Dark theme option"
+  },
+  "optionsThemeSystem": {
+    "message": "システム",
+    "description": "System theme option"
+  },
+  "optionsLanguage": {
+    "message": "言語:",
+    "description": "Language option"
+  },
+  "optionsSave": {
+    "message": "オプションを保存",
+    "description": "Save options button"
+  },
+  "optionsReset": {
+    "message": "デフォルトにリセット",
+    "description": "Reset options button"
+  },
+  "optionsSaved": {
+    "message": "オプションが正常に保存されました！",
+    "description": "Options saved message"
+  },
+  "optionsReset": {
+    "message": "オプションがデフォルト値にリセットされました。変更を適用するには保存をクリックしてください。",
+    "description": "Options reset message"
+  },
+  "aboutTitle": {
+    "message": "Cobalt メディアダウンローダーについて",
+    "description": "About page title"
+  },
+  "aboutDescription": {
+    "message": "この拡張機能はcobalt.toolsを使用してメディアのダウンロードを容易にするために作成されました。",
+    "description": "About page description"
+  },
+  "aboutAuthor": {
+    "message": "作成者:",
+    "description": "Author label"
+  },
+  "aboutVersion": {
+    "message": "バージョン:",
+    "description": "Version label"
+  },
+  "aboutRepository": {
+    "message": "GitHubリポジトリ:",
+    "description": "Repository label"
+  },
+  "aboutThanks": {
+    "message": "メディアのダウンロードをシンプルでアクセスしやすくする素晴らしいサービスを提供してくれたcobalt.toolsに特別な感謝を。",
+    "description": "Thanks message for cobalt.tools"
+  },
+  "aboutDisclaimer": {
+    "message": "この拡張機能はcobalt.toolsの開発者と提携しておらず、彼らによって承認されていません。",
+    "description": "Disclaimer about affiliation"
+  },
+  "historyTitle": {
+    "message": "ダウンロード履歴",
+    "description": "History page title"
+  },
+  "historySearch": {
+    "message": "ダウンロードを検索...",
+    "description": "History search placeholder"
+  },
+  "historyFilterType": {
+    "message": "すべてのタイプ",
+    "description": "History filter by type"
+  },
+  "historyFilterStatus": {
+    "message": "すべてのステータス",
+    "description": "History filter by status"
+  },
+  "historySort": {
+    "message": "並び替え:",
+    "description": "History sort"
+  },
+  "historySortDateNewest": {
+    "message": "日付（最新）",
+    "description": "Sort by newest date"
+  },
+  "historySortDateOldest": {
+    "message": "日付（最古）",
+    "description": "Sort by oldest date"
+  },
+  "historySortTitleAZ": {
+    "message": "タイトル（A-Z）",
+    "description": "Sort by title A-Z"
+  },
+  "historySortTitleZA": {
+    "message": "タイトル（Z-A）",
+    "description": "Sort by title Z-A"
+  },
+  "historyEmpty": {
+    "message": "ダウンロード履歴が見つかりません。",
+    "description": "Empty history message"
+  },
+  "historyAdjustFilters": {
+    "message": "フィルターを調整してみてください。",
+    "description": "Adjust filters message"
+  },
+  "historyStatusSuccess": {
+    "message": "成功",
+    "description": "Success status"
+  },
+  "historyStatusFailed": {
+    "message": "失敗",
+    "description": "Failed status"
+  },
+  "historyDownloadAgain": {
+    "message": "再ダウンロード",
+    "description": "Download again button"
+  },
+  "historyRemove": {
+    "message": "削除",
+    "description": "Remove button"
+  },
+  "historyClearAll": {
+    "message": "すべての履歴を消去",
+    "description": "Clear all history button"
+  },
+  "historyConfirmRemove": {
+    "message": "このアイテムを履歴から削除してもよろしいですか？",
+    "description": "Confirm remove message"
+  },
+  "historyConfirmClear": {
+    "message": "ダウンロード履歴をすべて消去してもよろしいですか？",
+    "description": "Confirm clear message"
+  },
+  "historyConfirm": {
+    "message": "確認",
+    "description": "Confirm button"
+  },
+  "historyCancel": {
+    "message": "キャンセル",
+    "description": "Cancel button"
+  },
+  "historyCleared": {
+    "message": "ダウンロード履歴が消去されました。",
+    "description": "History cleared message"
+  },
+  "themesCustom": {
+    "message": "カスタム",
+    "description": "Custom theme option"
+  },
+  "themesCustomize": {
+    "message": "テーマをカスタマイズ",
+    "description": "Customize theme button"
+  },
+  "themesPresets": {
+    "message": "テーマプリセット",
+    "description": "Theme presets"
+  },
+  "themesColors": {
+    "message": "色",
+    "description": "Theme colors"
+  },
+  "themesBackgroundColor": {
+    "message": "背景色",
+    "description": "Background color"
+  },
+  "themesTextColor": {
+    "message": "テキスト色",
+    "description": "Text color"
+  },
+  "themesPrimaryColor": {
+    "message": "メインカラー",
+    "description": "Primary color"
+  },
+  "themesSecondaryColor": {
+    "message": "セカンダリカラー",
+    "description": "Secondary color"
+  }
+}

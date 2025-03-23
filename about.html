@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+<head>
+  <title data-i18n="aboutTitle">About Cobalt Media Downloader</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace;
+      margin: 0;
+      padding: 0;
+      background-color: #1c1c1c;
+      color: #e1e1e1;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin-right: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin: 0;
+      color: #4c84ff;
+    }
+
+    .section {
+      background-color: #2c2c2c;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: #4c84ff;
+    }
+
+    .info-row {
+      display: flex;
+      margin-bottom: 10px;
+    }
+
+    .info-label {
+      width: 150px;
+      font-weight: bold;
+    }
+
+    .info-value {
+      flex: 1;
+    }
+
+    a {
+      color: #4c84ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .thanks-section {
+      background-color: rgba(76, 132, 255, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .thanks-section p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .thanks-section img {
+      max-width: 80px;
+      margin-bottom: 15px;
+    }
+
+    .disclaimer {
+      font-size: 12px;
+      color: #a0a0a0;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .footer {
+      margin-top: 50px;
+      border-top: 1px solid #444;
+      padding-top: 20px;
+      font-size: 12px;
+      color: #a0a0a0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="images/icon128.png" alt="Cobalt Media Downloader" class="logo">
+      <h1 data-i18n="aboutTitle">About Cobalt Media Downloader</h1>
+    </header>
+
+    <div class="section">
+      <h2 data-i18n="aboutDescription">This extension was created to make downloading media easier using cobalt.tools.</h2>
+
+      <div class="info-row">
+        <div class="info-label" data-i18n="aboutAuthor">Created by:</div>
+        <div class="info-value">desgubernamentalizar</div>
+      </div>
+
+      <div class="info-row">
+        <div class="info-label" data-i18n="aboutVersion">Version:</div>
+        <div class="info-value">2.3.0</div>
+      </div>
+
+      <div class="info-row">
+        <div class="info-label" data-i18n="aboutRepository">GitHub Repository:</div>
+        <div class="info-value">
+          <a href="https://github.com/nikoriki/cobaltextension" target="_blank">github.com/nikoriki/cobaltextension</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Features</h2>
+      <ul>
+        <li>Quick download of media from any supported website</li>
+        <li>Choose to download audio only, video only, or both (auto mode)</li>
+        <li>Multiple ways to download:
+          <ul>
+            <li>Popup interface</li>
+            <li>Right-click context menu</li>
+            <li>Keyboard shortcuts</li>
+          </ul>
+        </li>
+        <li>Download history tracking</li>
+        <li>Dark theme interface</li>
+      </ul>
+    </div>
+
+    <div class="thanks-section">
+      <img src="images/meowbalt.png" alt="Meowbalt" id="meowbalt-img">
+      <h2>Special Thanks</h2>
+      <p data-i18n="aboutThanks">
+        Special thanks to cobalt.tools for providing an amazing service that makes media downloading simple and accessible.
+      </p>
+      <p>
+        <a href="https://cobalt.tools" target="_blank">Visit cobalt.tools</a>
+      </p>
+    </div>
+
+    <p class="disclaimer" data-i18n="aboutDisclaimer">
+      This extension is not affiliated with or endorsed by the cobalt.tools developers.
+    </p>
+
+    <div class="footer">
+      &copy; 2025 desgubernamentalizar - <a href="https://github.com/nikoriki" target="_blank">github.com/nikoriki</a>
+    </div>
+  </div>
+
+  <script src="util.js"></script>
+  <script src="about.js"></script>
+</body>
+</html>

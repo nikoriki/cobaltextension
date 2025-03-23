@@ -1,0 +1,280 @@
+{
+  "extensionName": {
+    "message": "Descargador de Medios Cobalt",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Descarga medios de cualquier sitio web a través de cobalt.tools. Elige descargar audio, video o ambos.",
+    "description": "Description of the extension"
+  },
+  "popupTitle": {
+    "message": "Descargador de Medios Cobalt",
+    "description": "Title displayed in the popup"
+  },
+  "placeholderUrl": {
+    "message": "Pega un enlace o usa la página actual",
+    "description": "Placeholder text for URL input"
+  },
+  "btnAuto": {
+    "message": "Auto",
+    "description": "Auto download button"
+  },
+  "btnAudio": {
+    "message": "Audio",
+    "description": "Audio download button"
+  },
+  "btnVideo": {
+    "message": "Video",
+    "description": "Video download button"
+  },
+  "btnPaste": {
+    "message": "Pegar y Descargar",
+    "description": "Paste and download button"
+  },
+  "btnCurrent": {
+    "message": "Usar Página Actual",
+    "description": "Use current page button"
+  },
+  "viewHistory": {
+    "message": "Ver Historial de Descargas",
+    "description": "View download history link"
+  },
+  "options": {
+    "message": "Opciones",
+    "description": "Options link"
+  },
+  "invalidUrl": {
+    "message": "URL inválida. Por favor, pega un enlace válido.",
+    "description": "Invalid URL error message"
+  },
+  "clipboardError": {
+    "message": "Error al leer el portapapeles: $ERROR$",
+    "description": "Clipboard error message",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Permission denied"
+      }
+    }
+  },
+  "currentPageError": {
+    "message": "No se pudo obtener la URL de la página actual.",
+    "description": "Current page error message"
+  },
+  "processing": {
+    "message": "Procesando...",
+    "description": "Processing message"
+  },
+  "downloadStarted": {
+    "message": "Descarga iniciada",
+    "description": "Download started notification"
+  },
+  "downloadComplete": {
+    "message": "Descarga completada",
+    "description": "Download complete notification"
+  },
+  "downloadFailed": {
+    "message": "Descarga fallida",
+    "description": "Download failed notification"
+  },
+  "contextMenuDownloadLink": {
+    "message": "Descargar con Cobalt",
+    "description": "Context menu item for links"
+  },
+  "contextMenuDownloadPage": {
+    "message": "Descargar esta página con Cobalt",
+    "description": "Context menu item for pages"
+  },
+  "contextMenuViewHistory": {
+    "message": "Ver Historial de Descargas",
+    "description": "Context menu item to view history"
+  },
+  "contextMenuOptions": {
+    "message": "Opciones",
+    "description": "Context menu item for options"
+  },
+  "optionsGeneral": {
+    "message": "General",
+    "description": "General options tab"
+  },
+  "optionsAppearance": {
+    "message": "Apariencia",
+    "description": "Appearance options tab"
+  },
+  "optionsDownloads": {
+    "message": "Descargas",
+    "description": "Downloads options tab"
+  },
+  "optionsShortcuts": {
+    "message": "Atajos",
+    "description": "Shortcuts options tab"
+  },
+  "optionsHistory": {
+    "message": "Historial",
+    "description": "History options tab"
+  },
+  "optionsAbout": {
+    "message": "Acerca de",
+    "description": "About options tab"
+  },
+  "optionsInstance": {
+    "message": "URL de Instancia de Cobalt:",
+    "description": "Cobalt instance URL option"
+  },
+  "optionsDefaultMode": {
+    "message": "Modo de Descarga Predeterminado:",
+    "description": "Default download mode option"
+  },
+  "optionsTheme": {
+    "message": "Tema:",
+    "description": "Theme option"
+  },
+  "optionsThemeLight": {
+    "message": "Claro",
+    "description": "Light theme option"
+  },
+  "optionsThemeDark": {
+    "message": "Oscuro",
+    "description": "Dark theme option"
+  },
+  "optionsThemeSystem": {
+    "message": "Sistema",
+    "description": "System theme option"
+  },
+  "optionsLanguage": {
+    "message": "Idioma:",
+    "description": "Language option"
+  },
+  "optionsSave": {
+    "message": "Guardar Opciones",
+    "description": "Save options button"
+  },
+  "optionsReset": {
+    "message": "Restablecer Valores Predeterminados",
+    "description": "Reset options button"
+  },
+  "optionsSaved": {
+    "message": "¡Opciones guardadas correctamente!",
+    "description": "Options saved message"
+  },
+  "optionsReset": {
+    "message": "Las opciones se han restablecido a los valores predeterminados. Haga clic en Guardar para aplicar los cambios.",
+    "description": "Options reset message"
+  },
+  "notificationsEnabled": {
+    "message": "Mostrar notificaciones del navegador",
+    "description": "Notifications enabled option"
+  },
+  "aboutTitle": {
+    "message": "Acerca de Cobalt Media Downloader",
+    "description": "About page title"
+  },
+  "aboutDescription": {
+    "message": "Esta extensión fue creada para facilitar la descarga de medios usando cobalt.tools.",
+    "description": "About page description"
+  },
+  "aboutAuthor": {
+    "message": "Creado por:",
+    "description": "Author label"
+  },
+  "aboutVersion": {
+    "message": "Versión:",
+    "description": "Version label"
+  },
+  "aboutRepository": {
+    "message": "Repositorio GitHub:",
+    "description": "Repository label"
+  },
+  "aboutThanks": {
+    "message": "Agradecimientos especiales a cobalt.tools por proporcionar un servicio increíble que hace que la descarga de medios sea simple y accesible.",
+    "description": "Thanks message for cobalt.tools"
+  },
+  "aboutDisclaimer": {
+    "message": "Esta extensión no está afiliada ni respaldada por los desarrolladores de cobalt.tools.",
+    "description": "Disclaimer about affiliation"
+  },
+  "historyTitle": {
+    "message": "Historial de Descargas",
+    "description": "History page title"
+  },
+  "historySearch": {
+    "message": "Buscar descargas...",
+    "description": "History search placeholder"
+  },
+  "historyFilterType": {
+    "message": "Todos los Tipos",
+    "description": "History filter by type"
+  },
+  "historyFilterStatus": {
+    "message": "Todos los Estados",
+    "description": "History filter by status"
+  },
+  "historySort": {
+    "message": "Ordenar por:",
+    "description": "History sort"
+  },
+  "historySortDateNewest": {
+    "message": "Fecha (Más reciente)",
+    "description": "Sort by newest date"
+  },
+  "historySortDateOldest": {
+    "message": "Fecha (Más antigua)",
+    "description": "Sort by oldest date"
+  },
+  "historySortTitleAZ": {
+    "message": "Título (A-Z)",
+    "description": "Sort by title A-Z"
+  },
+  "historySortTitleZA": {
+    "message": "Título (Z-A)",
+    "description": "Sort by title Z-A"
+  },
+  "historyEmpty": {
+    "message": "No se encontró historial de descargas.",
+    "description": "Empty history message"
+  },
+  "historyAdjustFilters": {
+    "message": "Intenta ajustar tus filtros.",
+    "description": "Adjust filters message"
+  },
+  "historyStatusSuccess": {
+    "message": "Éxito",
+    "description": "Success status"
+  },
+  "historyStatusFailed": {
+    "message": "Fallido",
+    "description": "Failed status"
+  },
+  "historyDownloadAgain": {
+    "message": "Descargar de Nuevo",
+    "description": "Download again button"
+  },
+  "historyRemove": {
+    "message": "Eliminar",
+    "description": "Remove button"
+  },
+  "historyClearAll": {
+    "message": "Borrar Todo el Historial",
+    "description": "Clear all history button"
+  },
+  "historyConfirmRemove": {
+    "message": "¿Estás seguro de que quieres eliminar este elemento de tu historial?",
+    "description": "Confirm remove message"
+  },
+  "historyConfirmClear": {
+    "message": "¿Estás seguro de que quieres borrar todo tu historial de descargas?",
+    "description": "Confirm clear message"
+  },
+  "historyConfirm": {
+    "message": "Confirmar",
+    "description": "Confirm button"
+  },
+  "historyCancel": {
+    "message": "Cancelar",
+    "description": "Cancel button"
+  },
+  "historyCleared": {
+    "message": "El historial de descargas ha sido borrado.",
+    "description": "History cleared message"
+  }
+}

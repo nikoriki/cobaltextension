@@ -1,0 +1,296 @@
+{
+  "extensionName": {
+    "message": "Cobalt Media Downloader",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Lade Medien von jeder Website über cobalt.tools herunter. Wähle Audio, Video oder beides zum Download aus.",
+    "description": "Description of the extension"
+  },
+  "popupTitle": {
+    "message": "Cobalt Media Downloader",
+    "description": "Title displayed in the popup"
+  },
+  "placeholderUrl": {
+    "message": "Link einfügen oder aktuelle Seite verwenden",
+    "description": "Placeholder text for URL input"
+  },
+  "btnAuto": {
+    "message": "Auto",
+    "description": "Auto download button"
+  },
+  "btnAudio": {
+    "message": "Audio",
+    "description": "Audio download button"
+  },
+  "btnVideo": {
+    "message": "Video",
+    "description": "Video download button"
+  },
+  "btnPaste": {
+    "message": "Einfügen & Herunterladen",
+    "description": "Paste and download button"
+  },
+  "btnCurrent": {
+    "message": "Aktuelle Seite verwenden",
+    "description": "Use current page button"
+  },
+  "viewHistory": {
+    "message": "Download-Verlauf anzeigen",
+    "description": "View download history link"
+  },
+  "options": {
+    "message": "Optionen",
+    "description": "Options link"
+  },
+  "invalidUrl": {
+    "message": "Ungültige URL. Bitte füge einen gültigen Link ein.",
+    "description": "Invalid URL error message"
+  },
+  "clipboardError": {
+    "message": "Fehler beim Lesen der Zwischenablage: $ERROR$",
+    "description": "Clipboard error message",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Permission denied"
+      }
+    }
+  },
+  "currentPageError": {
+    "message": "Konnte die URL der aktuellen Seite nicht abrufen.",
+    "description": "Current page error message"
+  },
+  "processing": {
+    "message": "Verarbeitung...",
+    "description": "Processing message"
+  },
+  "contextMenuDownloadLink": {
+    "message": "Mit Cobalt herunterladen",
+    "description": "Context menu item for links"
+  },
+  "contextMenuDownloadPage": {
+    "message": "Diese Seite mit Cobalt herunterladen",
+    "description": "Context menu item for pages"
+  },
+  "contextMenuViewHistory": {
+    "message": "Download-Verlauf anzeigen",
+    "description": "Context menu item to view history"
+  },
+  "contextMenuOptions": {
+    "message": "Optionen",
+    "description": "Context menu item for options"
+  },
+  "optionsGeneral": {
+    "message": "Allgemein",
+    "description": "General options tab"
+  },
+  "optionsAppearance": {
+    "message": "Erscheinungsbild",
+    "description": "Appearance options tab"
+  },
+  "optionsDownloads": {
+    "message": "Downloads",
+    "description": "Downloads options tab"
+  },
+  "optionsShortcuts": {
+    "message": "Tastenkürzel",
+    "description": "Shortcuts options tab"
+  },
+  "optionsHistory": {
+    "message": "Verlauf",
+    "description": "History options tab"
+  },
+  "optionsAbout": {
+    "message": "Über",
+    "description": "About options tab"
+  },
+  "optionsInstance": {
+    "message": "Cobalt Instanz-URL:",
+    "description": "Cobalt instance URL option"
+  },
+  "optionsDefaultMode": {
+    "message": "Standard-Download-Modus:",
+    "description": "Default download mode option"
+  },
+  "optionsTheme": {
+    "message": "Thema:",
+    "description": "Theme option"
+  },
+  "optionsThemeLight": {
+    "message": "Hell",
+    "description": "Light theme option"
+  },
+  "optionsThemeDark": {
+    "message": "Dunkel",
+    "description": "Dark theme option"
+  },
+  "optionsThemeSystem": {
+    "message": "System",
+    "description": "System theme option"
+  },
+  "optionsLanguage": {
+    "message": "Sprache:",
+    "description": "Language option"
+  },
+  "optionsSave": {
+    "message": "Optionen speichern",
+    "description": "Save options button"
+  },
+  "optionsReset": {
+    "message": "Auf Standardwerte zurücksetzen",
+    "description": "Reset options button"
+  },
+  "optionsSaved": {
+    "message": "Optionen erfolgreich gespeichert!",
+    "description": "Options saved message"
+  },
+  "optionsReset": {
+    "message": "Die Optionen wurden auf die Standardwerte zurückgesetzt. Klicken Sie auf Speichern, um die Änderungen zu übernehmen.",
+    "description": "Options reset message"
+  },
+  "aboutTitle": {
+    "message": "Über Cobalt Media Downloader",
+    "description": "About page title"
+  },
+  "aboutDescription": {
+    "message": "Diese Erweiterung wurde entwickelt, um das Herunterladen von Medien mit cobalt.tools zu erleichtern.",
+    "description": "About page description"
+  },
+  "aboutAuthor": {
+    "message": "Erstellt von:",
+    "description": "Author label"
+  },
+  "aboutVersion": {
+    "message": "Version:",
+    "description": "Version label"
+  },
+  "aboutRepository": {
+    "message": "GitHub Repository:",
+    "description": "Repository label"
+  },
+  "aboutThanks": {
+    "message": "Besonderer Dank an cobalt.tools für die Bereitstellung eines großartigen Dienstes, der das Herunterladen von Medien einfach und zugänglich macht.",
+    "description": "Thanks message for cobalt.tools"
+  },
+  "aboutDisclaimer": {
+    "message": "Diese Erweiterung ist nicht mit den Entwicklern von cobalt.tools verbunden oder von ihnen unterstützt.",
+    "description": "Disclaimer about affiliation"
+  },
+  "historyTitle": {
+    "message": "Download-Verlauf",
+    "description": "History page title"
+  },
+  "historySearch": {
+    "message": "Downloads durchsuchen...",
+    "description": "History search placeholder"
+  },
+  "historyFilterType": {
+    "message": "Alle Typen",
+    "description": "History filter by type"
+  },
+  "historyFilterStatus": {
+    "message": "Alle Status",
+    "description": "History filter by status"
+  },
+  "historySort": {
+    "message": "Sortieren nach:",
+    "description": "History sort"
+  },
+  "historySortDateNewest": {
+    "message": "Datum (Neueste)",
+    "description": "Sort by newest date"
+  },
+  "historySortDateOldest": {
+    "message": "Datum (Älteste)",
+    "description": "Sort by oldest date"
+  },
+  "historySortTitleAZ": {
+    "message": "Titel (A-Z)",
+    "description": "Sort by title A-Z"
+  },
+  "historySortTitleZA": {
+    "message": "Titel (Z-A)",
+    "description": "Sort by title Z-A"
+  },
+  "historyEmpty": {
+    "message": "Kein Download-Verlauf gefunden.",
+    "description": "Empty history message"
+  },
+  "historyAdjustFilters": {
+    "message": "Versuche, deine Filter anzupassen.",
+    "description": "Adjust filters message"
+  },
+  "historyStatusSuccess": {
+    "message": "Erfolg",
+    "description": "Success status"
+  },
+  "historyStatusFailed": {
+    "message": "Fehlgeschlagen",
+    "description": "Failed status"
+  },
+  "historyDownloadAgain": {
+    "message": "Erneut herunterladen",
+    "description": "Download again button"
+  },
+  "historyRemove": {
+    "message": "Entfernen",
+    "description": "Remove button"
+  },
+  "historyClearAll": {
+    "message": "Gesamten Verlauf löschen",
+    "description": "Clear all history button"
+  },
+  "historyConfirmRemove": {
+    "message": "Bist du sicher, dass du diesen Eintrag aus deinem Verlauf entfernen möchtest?",
+    "description": "Confirm remove message"
+  },
+  "historyConfirmClear": {
+    "message": "Bist du sicher, dass du deinen gesamten Download-Verlauf löschen möchtest?",
+    "description": "Confirm clear message"
+  },
+  "historyConfirm": {
+    "message": "Bestätigen",
+    "description": "Confirm button"
+  },
+  "historyCancel": {
+    "message": "Abbrechen",
+    "description": "Cancel button"
+  },
+  "historyCleared": {
+    "message": "Download-Verlauf wurde gelöscht.",
+    "description": "History cleared message"
+  },
+  "themesCustom": {
+    "message": "Benutzerdefiniert",
+    "description": "Custom theme option"
+  },
+  "themesCustomize": {
+    "message": "Thema anpassen",
+    "description": "Customize theme button"
+  },
+  "themesPresets": {
+    "message": "Themenvoreinstellungen",
+    "description": "Theme presets"
+  },
+  "themesColors": {
+    "message": "Farben",
+    "description": "Theme colors"
+  },
+  "themesBackgroundColor": {
+    "message": "Hintergrundfarbe",
+    "description": "Background color"
+  },
+  "themesTextColor": {
+    "message": "Textfarbe",
+    "description": "Text color"
+  },
+  "themesPrimaryColor": {
+    "message": "Primärfarbe",
+    "description": "Primary color"
+  },
+  "themesSecondaryColor": {
+    "message": "Sekundärfarbe",
+    "description": "Secondary color"
+  }
+}

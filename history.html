@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cobalt Download History</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      color: #e1e1e1;
+      background-color: #1c1c1c;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #4c84ff;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .search-box {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #444;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 14px;
+      background-color: #2c2c2c;
+      color: #e1e1e1;
+    }
+
+    .filter-controls {
+      display: flex;
+      gap: 10px;
+    }
+
+    select {
+      padding: 8px;
+      border: 1px solid #444;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 14px;
+      background-color: #2c2c2c;
+      color: #e1e1e1;
+    }
+
+    button {
+      padding: 8px 16px;
+      background-color: #4c84ff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.2s;
+    }
+
+    button:hover {
+      background-color: #3a70e0;
+    }
+
+    button.danger {
+      background-color: #dc3545;
+    }
+
+    button.danger:hover {
+      background-color: #c82333;
+    }
+
+    .history-list {
+      border: 1px solid #444;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .history-item {
+      display: flex;
+      padding: 15px;
+      border-bottom: 1px solid #444;
+      transition: background-color 0.2s;
+    }
+
+    .history-item:last-child {
+      border-bottom: none;
+    }
+
+    .history-item:hover {
+      background-color: #2c2c2c;
+    }
+
+    .thumbnail {
+      width: 120px;
+      height: 68px;
+      background-color: #444;
+      margin-right: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .thumbnail img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    .content {
+      flex: 1;
+    }
+
+    .title {
+      font-weight: bold;
+      margin-bottom: 5px;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      color: #e1e1e1;
+    }
+
+    .info {
+      display: flex;
+      gap: 15px;
+      color: #a0a0a0;
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
+
+    .url {
+      color: #a0a0a0;
+      font-size: 12px;
+      word-break: break-all;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .actions button {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+
+    .status-badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .status-badge.success {
+      background-color: #28a745;
+    }
+
+    .status-badge.failure {
+      background-color: #dc3545;
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      gap: 5px;
+    }
+
+    .pagination button {
+      padding: 5px 10px;
+    }
+
+    .pagination .current {
+      background-color: #3a70e0;
+    }
+
+    .empty-state {
+      padding: 30px;
+      text-align: center;
+      color: #a0a0a0;
+    }
+
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 12px;
+      color: #a0a0a0;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+
+    .modal-content {
+      background-color: #2c2c2c;
+      padding: 20px;
+      border-radius: 5px;
+      width: 400px;
+      max-width: 90%;
+      color: #e1e1e1;
+    }
+
+    .modal-title {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #4c84ff;
+    }
+
+    .modal-buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cobalt Download History</h1>
+
+  <div class="controls">
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Search downloads...">
+    </div>
+
+    <div class="filter-controls">
+      <select id="type-filter">
+        <option value="all">All Types</option>
+        <option value="audio">Audio</option>
+        <option value="video">Video</option>
+        <option value="auto">Auto (Video + Audio)</option>
+      </select>
+
+      <select id="status-filter">
+        <option value="all">All Status</option>
+        <option value="success">Success</option>
+        <option value="failure">Failed</option>
+      </select>
+
+      <select id="sort-by">
+        <option value="date-desc">Date (Newest)</option>
+        <option value="date-asc">Date (Oldest)</option>
+        <option value="title-asc">Title (A-Z)</option>
+        <option value="title-desc">Title (Z-A)</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="history-container">
+    <div class="history-list" id="history-list">
+      <!-- History items will be dynamically generated here -->
+    </div>
+
+    <div class="pagination" id="pagination">
+      <!-- Pagination buttons will be dynamically generated here -->
+    </div>
+  </div>
+
+  <div class="footer">
+    <button id="clear-all-btn" class="danger">Clear All History</button>
+  </div>
+
+  <!-- Confirmation Modal -->
+  <div class="modal" id="confirm-modal">
+    <div class="modal-content">
+      <div class="modal-title">Confirm Action</div>
+      <p id="confirm-message">Are you sure you want to proceed?</p>
+      <div class="modal-buttons">
+        <button id="cancel-btn">Cancel</button>
+        <button id="confirm-btn" class="danger">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="history.js"></script>
+</body>
+</html>
