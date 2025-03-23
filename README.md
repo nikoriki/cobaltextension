@@ -14,7 +14,7 @@ A browser extension that makes it easy to download media from websites using [co
 - **Download history tracking** to keep track of all your downloads
 - **Multiple language support (soon)** with English, Spanish, French, German, and Japanese
 - **Cross-browser compatibility** with both Chrome and Firefox versions (soon)
-- - **Streamlined interface** with simplified options
+- **Streamlined interface** with simplified options
 
 ## Installation
 
