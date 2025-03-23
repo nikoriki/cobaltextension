@@ -13,7 +13,7 @@ A browser extension that makes it easy to download media from websites using [co
   - Keyboard shortcuts for quick downloading
 - **Download history tracking** to keep track of all your downloads
 - **Multiple language support (soon)** with English, Spanish, French, German, and Japanese
-- **Cross-browser compatibility** with both Chrome and Firefox versions (soon)
+- **Cross-browser compatibility** with both Chrome and Firefox versions
 - **Streamlined interface** with simplified options
 
 ## Installation
@@ -25,6 +25,13 @@ A browser extension that makes it easy to download media from websites using [co
 3. Enable "Developer mode" in the top right
 4. Drag and drop the zip file onto the page, or click "Load unpacked" and select the extracted folder
 5. The Cobalt Media Downloader icon will appear in your browser toolbar
+
+### Firefox
+
+1. Download the latest Firefox version from the [Releases](https://github.com/nikoriki/cobaltextension/releases) page
+2. Open Firefox and go to `about:debugging#/runtime/this-firefox`
+3. Click "Load Temporary Add-on" and select the manifest.json in the extension folder
+4. The Cobalt Media Downloader icon will appear in your browser toolbar
 
 ## How to Use
 
