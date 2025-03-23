@@ -98,12 +98,17 @@ From the history page, you can:
 - Implemented the code for languages (soon available)
 - Fixed issues with keyboard shortcuts
 
+## Updates in Version 2.4.0
+
+- Added Firefox compatibility
+
 ## Credits
 
 - **Author**: desgubernamentalizar
 - **GitHub**: [github.com/nikoriki](https://github.com/nikoriki)
 - **Repository**: [github.com/nikoriki/cobaltextension](https://github.com/nikoriki/cobaltextension)
 - Special thanks to [cobalt.tools](https://cobalt.tools) for providing an amazing service that makes media downloading simple and accessible
+- Art used in this project is completely owned by cobalt.tools.
 
 ## License
 
